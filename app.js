@@ -22,20 +22,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function (req, res) {
-    // const url = "https://opentdb.com/api.php?amount=10&type=boolean";
-    // if (cnt === 0) {
-
-
-   
-  
-
-
-    // }
-    // let qNo = qNum + 1;
-    // //console.log(qList[qNum]);
-    // let qText = qList[qNum];
-    // //console.log(qList);
-    // res.render('index', { qNo: qNo, qText: qText });
+    
     res.sendFile(__dirname+"/index.html");
 
 });
@@ -60,7 +47,7 @@ app.post('/quiz', function (req, res) {
     }
 });
 
-// });
+
 app.post('/',function(req,res){
      len=req.body.len;
     let cat=req.body.cat;
