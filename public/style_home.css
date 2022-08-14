@@ -1,0 +1,36 @@
+.jumbotron {
+    text-align: center;
+    background-color: #395B64;
+    color: #C9CCD5;
+}
+
+body {
+    background-color: #93B5C6;
+    color: #FFE3E3;
+}
+
+select{
+    display: block;
+    width: 80%;
+    
+}
+.form-group{
+    width: 80%;
+    margin: 3% auto;
+}
+.num{
+    display: block;
+    width: 80%;
+}
+.w{
+    width: 80%;
+}
+.container-fluid {
+    margin-left:8%;
+   
+
+}
+.btn{
+    width: 80%;
+    margin:0 auto;
+}
