@@ -1,0 +1,51 @@
+.row{
+    width: 200%;
+   
+}
+h2{
+    text-align: center;
+}
+.jumbotron{
+    text-align: center;
+    background-color: #395B64;
+    color: #C9CCD5;
+}
+
+span{
+    font-weight: 800;
+    font-size: 24px;
+}
+.container-fluid{
+    width: 70%;
+    margin: 0 auto;
+}
+body{
+    background-color: #93B5C6;
+    color: #FFE3E3;
+}
+.question-card{
+   
+    background-color: #E7F6F2;
+    color: #A5C9CA;
+    border-radius: 1%;
+    font-size: 24px;
+}
+.indf{
+    margin: 5% auto;
+    border: 2px solid red;
+}
+.indt {
+    margin: 5% auto;
+    border: 2px solid green;
+}
+.options{
+    margin-top:5%;
+    margin-bottom: 5%;
+    
+}
+form{
+    width: 150%;
+}
+.btn{
+    margin-left: 90%;
+}

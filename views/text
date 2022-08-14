@@ -1,0 +1,21 @@
+<% for(let i=0;i<qList.length;i++){%>
+            <div class="col-md-6 question-card"><span><%=i+1%>)</span>
+                <p><%-qList[i]%></p>
+                <div class="form-check">
+                    <input class="form-check-input options" type="radio" name="tf" id="trueBtn"  value="True" disabled>
+                    <label class="form-check-label options" for="trueBtn">
+                       True <%if(aList[i]=="True"){%>
+                                    <span>✅</span>
+                              <%}%>
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input options" type="radio" name="tf" id="falseBtn"  value="False" disabled>
+                    <%-<label class="form-check-label options" for="falseBtn">%>
+                        False <%if(aList[i]=="False"){%>
+                       <%-<span>✅</span>%>
+                        <%}%>
+                    </label>
+                </div>
+
+        <%}%>
